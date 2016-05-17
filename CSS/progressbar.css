@@ -1,0 +1,25 @@
+section#my-skills{
+    padding: 3px 10px 0;
+}
+#my-skills div.progress {
+    font-weight: bolder;
+    color: #fff;
+    background-color: #f3f3f3;
+    border: 0px none;
+    box-shadow: none;
+    height: 2.5em;
+}
+div.progress-bar > span{
+    float: left;
+    position: relative;
+    top: 9px;
+    left: 2%;
+    font-size: 14px;
+}
+
+.progress-bar {
+	-webkit-transition:all 0.8s ease-in-out;
+    -moz-transition:all 0.8s ease-in-out;  
+    -o-transition:all 0.8s ease-in-out;         
+    transition:all 0.8s ease-in-out;  
+}
